@@ -1,0 +1,17 @@
+.info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  gap: 10px;
+}
+.final-div {
+  height: 300px;
+  background-color: rgb(228, 192, 204);
+  margin: 20px 0 20px 0;
+}

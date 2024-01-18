@@ -1,0 +1,8 @@
+.right b {
+  text-decoration: none;
+  color: #000000;
+}
+.cart-main {
+  display: flex;
+  flex-direction: column;
+}

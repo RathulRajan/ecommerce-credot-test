@@ -1,0 +1,106 @@
+.second-div {
+  background-color: aqua;
+  height: 500px;
+  display: flex;
+  background-image: url("/Xbox2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px 0 20px 0;
+}
+.category-box {
+  width: 400px;
+  height: 130px;
+  background-color: aqua;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-box-blue {
+  background-color: rgba(238, 154, 20, 0.872);
+}
+
+.category-box-green {
+  background-color: #ff0099;
+}
+
+.category-box-red {
+  background-color: rgb(21, 180, 237);
+}
+
+.third-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.category-box h1 {
+  color: aliceblue;
+}
+.card-div {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.final-div {
+  height: 300px;
+  background-color: rgb(223, 152, 176);
+  margin: 10% auto;
+}
+.info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+  gap: 10px;
+}
+
+.buy-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .second-div {
+    display: none;
+  }
+  .category-box {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .third-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    gap: 20px;
+  }
+  .card-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .final-div {
+    display: flex;
+  }
+  .category-box img {
+    display: none;
+  }
+  .main-landing {
+    width: 100%;
+  }
+}

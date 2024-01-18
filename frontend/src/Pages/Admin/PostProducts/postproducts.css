@@ -1,0 +1,35 @@
+.post-product {
+  margin: 30px;
+}
+
+.product-form {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  border: 5px solid black;
+  padding: 20px;
+  background-color: azure;
+  border-radius: 10px;
+}
+.product-form-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.product-form-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.product-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+}
+.post-product-btn {
+  margin-top: 45px;
+  width: 150px;
+}

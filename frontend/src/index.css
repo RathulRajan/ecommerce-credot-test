@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0 100px 0 100px;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    margin: 0 auto;
+  }
+}
